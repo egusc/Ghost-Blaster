@@ -1366,9 +1366,21 @@ PrefabInstance:
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 1274907147}
-    - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
-      propertyPath: RotationSpeed
-      value: 4
+    - target: {fileID: 5893695199442906679, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5893695199442906679, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5893695199442906679, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5893695199442906679, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_Name
