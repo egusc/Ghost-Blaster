@@ -1651,7 +1651,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2358013101997122828, guid: c23f94a8d74ef9c4f9ee2b0f6563fe7a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.56
+      value: -0.5599999
       objectReference: {fileID: 0}
     - target: {fileID: 2358013101997122828, guid: c23f94a8d74ef9c4f9ee2b0f6563fe7a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1667,15 +1667,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2358013101997122828, guid: c23f94a8d74ef9c4f9ee2b0f6563fe7a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2358013101997122828, guid: c23f94a8d74ef9c4f9ee2b0f6563fe7a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2358013101997122828, guid: c23f94a8d74ef9c4f9ee2b0f6563fe7a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2358013101997122828, guid: c23f94a8d74ef9c4f9ee2b0f6563fe7a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1693,6 +1693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 4521967713591248096, guid: c23f94a8d74ef9c4f9ee2b0f6563fe7a, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 387421351}
     - target: {fileID: 5181310889656639568, guid: c23f94a8d74ef9c4f9ee2b0f6563fe7a, type: 3}
       propertyPath: m_StoppingDistance
       value: 4
@@ -1721,6 +1725,6 @@ SceneRoots:
   - {fileID: 1249736116}
   - {fileID: 701577273}
   - {fileID: 942249324}
-  - {fileID: 8607569883315194190}
   - {fileID: 1643599295}
   - {fileID: 250911365}
+  - {fileID: 8607569883315194190}

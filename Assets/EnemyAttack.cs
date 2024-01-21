@@ -16,6 +16,10 @@ public class EnemyAttack : MonoBehaviour
     public void AttackHitEvent()
     {
         if(target == null) return;
-        Debug.Log("Damaged " + target.name);
+        PlayerHealth playerHealth = target.GetComponent<PlayerHealth>();
+        if(playerHealth)
+        {
+            playerHealth.damagePlayer(damage);
+        }
     }
 }
