@@ -10,7 +10,6 @@ public class PlayerHealth : MonoBehaviour
     public void damagePlayer(float damage)
     {
         health -= damage;
-        Debug.Log(health);
         if(health <= 0)
         {
             SceneManager.LoadScene(0);
