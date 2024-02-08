@@ -1,18 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using StarterAssets;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DeathHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    [SerializeField] Canvas gameOverCanvas;
+    FirstPersonController firstPersonController;
+
+    private void Start() {
+        gameOverCanvas.enabled = false;
+        firstPersonController = FindObjectOfType<FirstPersonController>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void HandleDeath()
     {
-        
+        // SceneManager.LoadScene(0);
+        gameOverCanvas.enabled = true;
+        firstPersonController.enabled = false;
+        Time.timeScale = 0;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
