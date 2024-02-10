@@ -49,7 +49,6 @@ public class Weapon : MonoBehaviour
         if (Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out hit, range))
         {
             CreateHitImpact(hit);
-            //TODO Hit effect
             EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
             if (target)
             {
@@ -57,7 +56,7 @@ public class Weapon : MonoBehaviour
             }
 
             if (target == null) return;
-            // Call method on enemy health that decreases enemy's health
+
         }
         else
         {
