@@ -357,7 +357,7 @@ MonoBehaviour:
   - ammoType: 1
     ammoAmount: 5
   - ammoType: 2
-    ammoAmount: 2
+    ammoAmount: 5
 --- !u!1 &8864623127842350954
 GameObject:
   m_ObjectHideFlags: 0

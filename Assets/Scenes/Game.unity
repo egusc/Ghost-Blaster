@@ -4395,10 +4395,6 @@ PrefabInstance:
       propertyPath: range
       value: 15
       objectReference: {fileID: 0}
-    - target: {fileID: 6192899783849219541, guid: cdd8e4b203366714c9f555dbbf9356e8, type: 3}
-      propertyPath: ammoAmount
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 6552191811822464082, guid: cdd8e4b203366714c9f555dbbf9356e8, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
       value: 1
